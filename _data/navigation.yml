@@ -1,0 +1,36 @@
+projs:
+  - title: Projects
+    children:
+      - title: "Product Innovation"
+        url: product-innovation/
+      - title: "Data Commons"
+        url: dc_cost_of_living/
+      - title: "Costal Futures"
+        url: https://jme6bk.github.io/CoastalFutures/
+      - title: "RND"
+        url: https://skylarhaskiell.github.io/rnd/
+      - title: "ARI2"
+        url: https://uva-bi-sdad.github.io/dspg22ari2/
+      - title: "Broadband"
+        url: https://dcc7ffm.github.io/dspg-ers/
+
+  - title: DSPG 2022
+    children:
+      - title: "About the Program"
+        url: https://biocomplexity.virginia.edu/institute/divisions/social-and-decision-analytics/dspg
+      - title: "Symposium 2022"
+        url: https://biocomplexity.virginia.edu/event/data-science-public-good-symposium-2022
+      - title: "UVA Biocomplexity Institute"
+        url: https://biocomplexity.virginia.edu/
+      - title: "Social and Decision Analytics Division"
+        url: https://biocomplexity.virginia.edu/institute/divisions/social-and-decision-analytics
+
+  - title: Work With Us
+    children:
+      - title: "Opportunities for Students"
+        url: https://biocomplexity.virginia.edu/uva-our-shared-vision/experiential-learning
+      - title: "Careers at the Institute"
+        url: https://biocomplexity.virginia.edu/work-us
+      - title: "Collaborate with Us"
+        url: https://biocomplexity.virginia.edu/institute/our-partners-and-sponsors
+        
