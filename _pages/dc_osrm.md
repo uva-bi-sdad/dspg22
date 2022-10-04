@@ -34,4 +34,4 @@ We created a standard operating procedure to merge and test OSM files for OSRM q
 We share the following resources to aid future researchers in the same endeavor:
 
 - [GitHub gist merging OSM files](https://gist.github.com/yaoeh/859cefaea7b61046d084ead1b3d104a1)
-- [GitHub repository for automated OSRM testing](https://github.com/yaoeh/dspg22_osm-tester)
+- [GitHub repository for automated OSRM testing](https://github.com/wanghalan/dspg22_osm-tester)
