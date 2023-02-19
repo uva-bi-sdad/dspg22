@@ -24,7 +24,7 @@ We test our merged files with 1000 random city pairs from the following states "
 ## Discussions
 A couple of tricky things people might encounter in the process:
   - The overpass returns the locations in (latitude, longitude), but the OSRM takes query in (longitude, latitude).
-  - The researcher will need sufficient computing power when extracting the merged file for the docker instance, especially for larger files. Otherwise, the extraction will fail silently—the successful extract last messages are recorded [here](https://gist.github.com/yaoeh/859cefaea7b61046d084ead1b3d104a1).
+  - The researcher will need sufficient computing power when extracting the merged file for the docker instance, especially for larger files. Otherwise, the extraction will fail silently—the successful extract last messages are recorded [here](https://gist.github.com/wanghalan/859cefaea7b61046d084ead1b3d104a1).
   - The queries do not always return ``Invalid route", even for two coordinates that do not make sense (i.e., New York to China). So, checking for zero distances is another sanity check to see if queries make sense.
 
 ## Conclusion
@@ -33,5 +33,5 @@ We created a standard operating procedure to merge and test OSM files for OSRM q
 ## Online resources
 We share the following resources to aid future researchers in the same endeavor:
 
-- [GitHub gist merging OSM files](https://gist.github.com/yaoeh/859cefaea7b61046d084ead1b3d104a1)
+- [GitHub gist merging OSM files](https://gist.github.com/wanghalan/859cefaea7b61046d084ead1b3d104a1)
 - [GitHub repository for automated OSRM testing](https://github.com/wanghalan/dspg22_osm-tester)
